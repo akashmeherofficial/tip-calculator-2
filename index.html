@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/newton-school/TheSecondProject/stylesheet.css">
+
+</head>
+<body>
+    <main>
+        <div id="h1">
+        <h1>Tip Calculator</h1>
+        </div>
+        <div class="container">
+        <label for="bill-amount">Bill Amount</label>
+        <br>
+        <input type="number" id="bill-amount" placeholder="00.00"> 
+        <br>
+        <label for="tip-percentage">Tip Percentage</label>
+        <br>
+        <input type="number" id="tip-percentage" placeholder="0%"> 
+        <br>
+        <label for="tip-amount">Tip Amount</label>
+        <br>
+        <input type="number" id="tip-amount" placeholder="00.00" disabled> 
+        <br>
+        <label for="total"><strong>Total</strong></label>
+        <br>
+        <input type="number" id="total" placeholder="00.00" disabled> 
+        <br>
+        <button id="btn" onclick="tipcalculate()">Calculate</button>
+    </div>
+    </main>
+<script src="/newton-school/TheSecondProject/script.js"></script>   
+</body>
+</html>
