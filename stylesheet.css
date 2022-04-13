@@ -31,7 +31,7 @@ html {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   background-image: repeating-linear-gradient(
     to right top,
     blue,
@@ -64,6 +64,7 @@ main {
   font-size: 1rem;
   display: flex;
   flex-direction: column;
+  margin: 2em;
 }
 
 .container input {
@@ -90,6 +91,28 @@ input[id="tip-amount"] {
   color: black;
 }
 input[id="total"] {
+  font-size: 1.5rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  height: 3rem;
+  width: 14rem;
+  box-shadow: 1px 1px 15px 1px blue;
+}
+#review{
+  font-size: 1.2rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  width: 14rem;
+  box-shadow: 1px 1px 15px 1px blue;
+  margin-left: 3.8em;
+  
+}
+#review option{
+  text-align: center;
+}
+input[id="total-split"] {
   font-size: 1.5rem;
   background-color: white;
   color: black;

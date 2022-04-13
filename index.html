@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
-    <link rel="stylesheet" href="/newton-school/TheSecondProject/stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
 
 </head>
 <body>
@@ -26,13 +26,34 @@
         <br>
         <input type="number" id="tip-amount" placeholder="00.00" disabled> 
         <br>
+        <label for="review">Review</label>
+        <br>
+        <select name="review" id="review">
+            <option  value="0">0%-Poor</option>
+            <option value="10">10%-Good</option>
+            <option value="20">20%-Better</option>
+            <option value="30">30%-Outstanding</option>
+        </select>
+        <br>
+        <label for="bill-split">How many people are sharing the bill?</label>
+        <br>
+        <input type="number" id="bill-split">
+        <br>
         <label for="total"><strong>Total</strong></label>
         <br>
         <input type="number" id="total" placeholder="00.00" disabled> 
         <br>
+        <br>
+        <label for="total-split"><strong>For Each</strong></label>
+        <br>
+        <input type="number" id="total-split" placeholder="00.00" disabled> 
+        <br>
         <button id="btn" onclick="tipcalculate()">Calculate</button>
     </div>
+    <div class="container">
+
+    </div>
     </main>
-<script src="/newton-school/TheSecondProject/script.js"></script>   
+<script src="script.js"></script>   
 </body>
 </html>
